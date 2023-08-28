@@ -34,3 +34,4 @@ function operate(a, b, operator) {
         divide(num1, num2)
     }
 }
+    
