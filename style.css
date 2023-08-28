@@ -9,7 +9,96 @@ body {
     padding: 0px;
     margin: 0px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
+    background-color: whitesmoke;
 }
 
+.title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+.main-container {
+    background-color: #2e2e1f;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 200px;
+    height: 325px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+.display-screen {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5px;
+    font-size: 25px;
+    overflow: hidden;
+    background-color: #ccffe6;
+    width: 175px;
+    height: 200px;
+    border: 0.75px solid black;
+    border-radius: 10px;
+}
+
+button {
+    border: none;
+}
+
+.upper-btns {
+    margin-bottom: 33px;
+    padding-top: 10px;
+}
+
+.ac-btn,
+.c-btn {
+    margin: 0px 8px;
+    width: 70px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: #990000;
+    font-weight: bold;
+}
+
+.ac-btn:hover,
+.c-btn:hover {
+    background-color: #800000;
+}
+
+.lower-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    width: 175px;
+    height: 115px;
+    margin-bottom: 50px;
+}
+
+.top-row,
+.middleTop-row,
+.middleBottom-row,
+.bottom-row {
+    display: flex;
+    gap: 10px;
+}
+
+.lower-btns button{
+    border-radius: 5px;
+    height: 35px;
+    width: 35px;
+    font-weight: 600;
+}
+
+.lower-btns button:hover {
+    background-color: #ccccb3;
+}
