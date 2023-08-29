@@ -94,7 +94,10 @@ equalBtn.addEventListener('click', () => {
 })
 
 cBtn.addEventListener('click', () => {
-    if (displayScreen.textContent.slice(-1) === " ") {
+    if (displayScreen.textContent === "ERROR!") {
+        displayScreen.textContent = ""
+    }
+    else if (displayScreen.textContent.slice(-1) === " ") {
         displayScreen.textContent = displayScreen.textContent.slice(0, -3)
     }
     else {
